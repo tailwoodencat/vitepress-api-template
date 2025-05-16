@@ -6,6 +6,9 @@ export default defineConfig({
   // set base for github pages
   base: '/vitepress-api-template/',
 
+  // https://vitepress.dev/reference/site-config#ignoredeadlinks
+  ignoreDeadLinks: true,
+
   title: "vitepress-api-template",
   description: "A Vitepress Api template",
   markdown: {
