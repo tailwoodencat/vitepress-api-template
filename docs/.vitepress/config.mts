@@ -55,6 +55,7 @@ export default defineConfig({
         text: 'Guide',
         items: [
           { text: 'Markdown', link: '/guide/markdown' },
+          { text: 'Asset', link: '/guide/asset' },
         ]
       }
     ],
