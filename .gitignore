@@ -4,6 +4,8 @@
 /publish
 /build
 
+.vitepress/
+
 # Generated files
 .cache-loader
 
