@@ -1,0 +1,22 @@
+{
+  "name": "vitepress-api-template",
+  "description": "vitepress api for template",
+  "version": "0.1.0",
+  "author": "sinlov",
+  "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
+    "replace-lockfile-registry": "^0.0.2",
+    "vitepress": "^1.6.3"
+  },
+  "packageManager": "pnpm@10.10.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.17.0"
+  },
+  "scripts": {
+    "clean:lockfile": "npx replace-lockfile-registry --registry https://registry.npmjs.org/",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  }
+}
