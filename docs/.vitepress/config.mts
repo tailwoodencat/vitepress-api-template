@@ -3,6 +3,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // set base for github pages
+  base: '/vitepress-api-template/',
+
   title: "vitepress-api-template",
   description: "A Vitepress Api template",
   markdown: {
