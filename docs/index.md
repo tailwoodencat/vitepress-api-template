@@ -14,7 +14,7 @@ hero:
       link: /api-examples
     - theme: alt
       text: GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/tailwoodencat/vitepress-api-template
   image:
       src: /img/navbar.svg
       alt: navbar

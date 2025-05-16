@@ -11,3 +11,7 @@
 - node `>=20.17.0`
 - pnpm `10.10.0`
 - build out folder is `docs/.vitepress/dist`
+
+## deploy
+
+- [https://tailwoodencat.github.io/vitepress-api-template/](https://tailwoodencat.github.io/vitepress-api-template/)
