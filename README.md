@@ -14,4 +14,6 @@
 
 ## deploy
 
+[![Deploy VitePress site to Pages](https://github.com/tailwoodencat/vitepress-api-template/actions/workflows/deploy.yml/badge.svg)](https://github.com/tailwoodencat/vitepress-api-template/actions/workflows/deploy.yml)
+
 - [https://tailwoodencat.github.io/vitepress-api-template/](https://tailwoodencat.github.io/vitepress-api-template/)

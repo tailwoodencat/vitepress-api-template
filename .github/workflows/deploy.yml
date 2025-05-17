@@ -3,9 +3,36 @@
 name: Deploy VitePress site to Pages
 
 on:
-  # 在针对 `main` 分支的推送上运行。如果你
   push:
-    branches: [main]
+    paths-ignore:
+      - '**/README.md'
+      - '**/doc-dev/*'
+    branches:
+      - 'main'
+      - 'release-*'
+      - '*-feature-*'
+      - '*-enhancement-*'
+      - '*-hotfix-*'
+      - '*-bug-*'
+      - '*-documentation-*'
+      - 'BF-*'
+      - 'FE-*'
+      - 'PU-*'
+      - 'DOC-*'
+    tags:
+      - '*' # Push events to matching *, i.e. 1.0.0 v1.0, v20.15.10
+  pull_request:
+    paths-ignore:
+      - '**/README.md'
+    types: # https://docs.github.com/actions/using-workflows/events-that-trigger-workflows#pull_request
+      - opened
+      - reopened
+      - closed
+    # branches:
+    #   - 'main'
+    #   - 'release-*'
+    #   - 'DOC-*'
+    #   - 'hotfix-*'
 
   # 允许你从 Actions 选项卡手动运行此工作流程
   workflow_dispatch:
